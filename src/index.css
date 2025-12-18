@@ -1,0 +1,132 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #2b2828;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card1 {
+  width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(255, 153, 102, 0.2);
+  padding: 20px 25px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.save {
+  border: 1px solid #ccc;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.company {
+  color: #020101;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.date {
+  color: #888;
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.job-title {
+
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  color: #111;
+}
+
+.tags {
+  padding-bottom: 75px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid #d3d3d3;
+  margin-right: 10px;
+  color: #444;
+}
+
+.tag.senior {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+.bottom-bar {
+  border-top: 1px solid rgb(85, 83, 83);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.salary {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.location {
+  font-size: 13px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.apply-btn {
+  background: #444;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+  background: #222;
+}
